@@ -138,7 +138,6 @@ ul.nav {
 }
 ul.nav > li {
   display: inline-block;
-  padding: 20px 40px;
 }
 ul.nav > li:hover {
   background-color: #2779BF;
@@ -146,7 +145,7 @@ ul.nav > li:hover {
 ul.nav > li > a {
     display: block;
     padding: 20px 20px 20px 20px;
-  color: gold;
+  color: #ffe0a1;
   text-decoration: none;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
