@@ -140,7 +140,7 @@ ul.nav > li:hover {
 ul.nav > li > a {
     display: block;
     padding: 20px 20px 20px 20px;
-  color: silver;
+  color: #ffe0a1;
   text-decoration: none;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
