@@ -102,6 +102,7 @@ body {
 .main-title {
     display: block;
     background-color: #C5CBE3;
+    padding: 30px 30px 30px 30px;
 }
 
 .email{background-color:#4056A1;
