@@ -60,13 +60,18 @@ body{font-family:perpetua,
      min-height:100%}
      
 .toc{margin-left:10px;
-    margin-right:1350px;
+    margin-right:10px;
+    max-width: 200px;
     text-align:center;
-    background-color:#ffe0a1;
-    border:10px solid gold;
     text-decoration:none;
 
 }
+
+    .toc > li > a {
+        display: block;
+        background-color: #3720c9;
+        color: #ffe0a1;
+    }
 
     ul {
         list-style-type: none;
