@@ -69,6 +69,7 @@ body{font-family:perpetua,
 
     .toc > li > a {
         display: block;
+        padding: 5px 5px 5px 5px;
         background-color: #4056A1;
         color: #EFE2BA;
     }
