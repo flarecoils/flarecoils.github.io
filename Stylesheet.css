@@ -12,7 +12,7 @@ h2{font-style:oblique;
 .gallery-image {
     max-height: 1200px;
     max-width: 360px;
-    border: 10px solid #D79922;
+    border: 10px solid #C5CBE3;
     border-radius: 20px;
     background: #EFE2BA;
     object-fit: contain;
@@ -85,15 +85,16 @@ body {
 
 .form-body{font-variant:small-caps;}
 
-.image{float:right;
-        background-color:#EFE2BA;
-        border:10px solid #D79922;
-        padding:15px;
-        margin-right:10px;
-        max-height:960px;
-        max-width:640px;
-        clear: right;
-        margin-bottom: 10px;
+.image {
+    float: right;
+    background-color: #C5CBE3;
+    border: 10px solid #D79922;
+    padding: 15px;
+    margin-right: 10px;
+    max-height: 960px;
+    max-width: 640px;
+    clear: right;
+    margin-bottom: 10px;
 }
         
 .gallery-text{float:left}
