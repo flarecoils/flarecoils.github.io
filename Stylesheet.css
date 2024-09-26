@@ -52,12 +52,13 @@ p{display:inline-block;
     border:transparent;
     border-radius:20px;
     background-color:#EFE2BA}
-    
-body{font-family:perpetua,
-     sans-serif; 
-     background-color:#C5CBE3;
-     overflow:auto;
-     min-height:100%}
+
+body {
+    font-family: perpetua, sans-serif;
+    background-color: #EFE2BA;
+    overflow: auto;
+    min-height: 100%
+}
      
 .toc{margin-left:10px;
     margin-right:10px;
@@ -70,7 +71,7 @@ body{font-family:perpetua,
     .toc > li > a {
         display: block;
         padding: 5px 5px 5px 5px;
-        background-color: #4056A1;
+        background-color: #C5CBE3;
         color: #EFE2BA;
     }
 
