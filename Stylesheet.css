@@ -12,9 +12,9 @@ h2{font-style:oblique;
 .gallery-image {
     max-height: 1200px;
     max-width: 360px;
-    border: 10px solid #C5CBE3;
+    border: 10px solid #B59410;
     border-radius: 20px;
-    background: #EFE2BA;
+    background: #C5CBE3;
     object-fit: contain;
     margin-bottom: 20px;
 }
