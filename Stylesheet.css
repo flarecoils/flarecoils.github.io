@@ -98,7 +98,9 @@ body {
         
 .gallery-text{float:left}
         
-.main-title{float: left}
+.main-title{float: left;
+            display:block;
+}
 
 .email{background-color:#4056A1;
         border:10px solid #D79922; 
