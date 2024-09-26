@@ -19,7 +19,8 @@ h2{font-style:oblique;
     margin-bottom: 20px;
 }
 
-.gallery-image > image {
+.gallery-image > img {
+    border: 1px solid gold;
     border-radius:20px;
 }
 
@@ -153,6 +154,10 @@ ul.nav > li > a {
   color: #EFE2BA;
   text-decoration: none;
 }
+
+    ul.nav > li > a :hover {
+        color: #C5CBE3;
+    }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
     float:left;
