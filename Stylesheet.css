@@ -139,6 +139,8 @@ ul.nav > li:hover {
   background-color: #2779BF;
 }
 ul.nav > li > a {
+    display: block;
+    padding: 20px 20px 20px 20px;
   color: gold;
   text-decoration: none;
 }
