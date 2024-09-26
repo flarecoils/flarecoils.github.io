@@ -19,6 +19,10 @@ h2{font-style:oblique;
     margin-bottom: 20px;
 }
 
+.gallery-image > image {
+    border-radius:20px;
+}
+
     .gallery-image:hover {
         max-height: 1200px;
         max-width: 360px;
