@@ -3,41 +3,50 @@ h1{
     color:#4056A1;
     font-size:50px;
     text-align:left !important;
-    font-family:"Century Gothic","Arial","Sans-Serif";}
+    font-family:"Eras ITC","Arial","Sans-Serif";}
 
 h2 {
     font-style: oblique;
     margin-left: 20px;
     font-size: 40px;
-    font-family: "Century Gothic", "Arial", "Sans-Serif";
+    font-family: "Eras ITC", "Arial", "Sans-Serif";
 }
 
 h3 {
-    font-family: "Century Gothic", "Arial", "Sans-Serif";
+    font-family: "Eras ITC", "Arial", "Sans-Serif";
 }
 
 h4 {
-    font-family: "Century Gothic", "Arial", "Sans-Serif";
+    font-family: "Eras ITC", "Arial", "Sans-Serif";
 }
 
 h5 {
-    font-family: "Century Gothic", "Arial", "Sans-Serif";
+    font-family: "Eras ITC", "Arial", "Sans-Serif";
 }
 
 h6 {
-    font-family: "Century Gothic", "Arial", "Sans-Serif";
+    font-family: "Eras ITC", "Arial", "Sans-Serif";
 }
 
 a{
-    font-family:"Century Gothic", "Arial", "Sans-Serif";
+    font-family:"Eras ITC", "Arial", "Sans-Serif";
+}
+
+.main-image {
+    float: right;
+    max-height: 70%;
+    max-width: 70%;
+    margin: 20px 20px 20px 20px;
 }
 
 .gallery-image {
     max-height: 1200px;
     max-width: 360px;
-    border: 10px solid #4056A1;
+    border: 10px solid black;
     background: #C5CBE3;
     margin-bottom: 20px;
+    border-radius:30px;
+    overflow:hidden;
 }
 
     .gallery-image > img {
@@ -55,8 +64,13 @@ a{
     }
                
 .photo{float:right;
-max-height:20%;
-max-width:20%;}
+max-height: 50%;
+max-width:50%;
+border: 5px solid black;
+object-fit:fill;
+border-radius: 30px;
+overflow:hidden;
+}
 
 li {
     
@@ -66,25 +80,23 @@ img {
     height: 100%;
     width: 100%;
     vertical-align: bottom; /* Need this to clear white-space */
-    object-fit: contain
+    object-fit: contain;
 }
 
 p {
     display: inline-block;
     padding: 20px;
     margin: 0px 0px 0px 0px;
-    text-align: left;
+    text-align: center;
     text-indent: 30px;
     font-size: 20px;
     border: transparent;
-    border-radius: 20px;
-    background-color: #EFE2BA;
-    font-family: "Century Gothic", "Arial", "Sans-Serif";
+    font-family: "Eras ITC", "Arial", "Sans-Serif";
 }
 
 body {
     font-family: perpetua, sans-serif;
-    background-color: #EFE2BA;
+    background-color: #FAFBA9;
     overflow: auto;
     min-height: 100%
 }
@@ -109,6 +121,11 @@ body {
     border-right: 5px #B59410;
 }
 
+    .toc > ul {
+        list-style-type: none;
+    }
+}
+
 .toc > ul > li > a:hover {
     padding: 5px 5px 5px 5px;
     background-color: #2779BF;
@@ -119,14 +136,17 @@ body {
 }
 
 ul {
-    list-style-type: none;
-    text-align:center;
+    
         
 }
 
-.first-word{font-variant:small-caps;}
+li{
+    font-family: "Eras ITC", "Arial", "sans-serif";
+}
 
-.form-body{font-variant:small-caps;}
+.first-word{font-weight:bold;}
+
+.form-body{}
 
 .image {
     float: right;
@@ -140,6 +160,38 @@ ul {
 }
         
 .gallery-text{float:left}
+
+.bubble-example-1 {
+    background: #C5CBE3;
+    border-radius: 30px;
+    font-weight:bold;
+    padding: 20px 20px 20px 20px;
+    max-width: 480px;
+    max-height: 480px;
+    border: 5px solid black;
+    float:right;
+    clear:both;
+    margin-bottom: 20px;
+
+    
+}
+
+.bubble-example-2 {
+    background: #C5CBE3;
+    border-radius: 30px;
+    font-weight: bold;
+    padding: 20px 20px 20px 20px;
+    max-width: 480px;
+    max-height:auto;
+    border: 5px solid black;
+    float: left;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.bubble-example-2 > ul > li{
+    padding:5px 5px 5px 5px;
+}
 
 .main-title {
     display: block;
@@ -173,9 +225,9 @@ video {
 }
 
 ul.nav {
-  background-color: #4056A1;
-  text-align: center;
-  
+    background-color: #4056A1;
+    text-align: center;
+    list-style-type: none;
 }
 ul.nav > li {
   display: inline-block;
