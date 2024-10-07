@@ -1,65 +1,61 @@
 /*Some of my first attempts at css.*/ /*TEST WEBSITE*/
 h1{
-    color:#4056A1;
+    color:#223CCF;
     font-size:50px;
     text-align:left !important;
-    font-family:"Eras ITC","Arial","Sans-Serif";}
+    font-family:"Raleway","Arial","Sans-Serif";}
 
 h2 {
-    font-style: oblique;
+    color: #233CCF;
     margin-left: 20px;
     font-size: 40px;
-    font-family: "Eras ITC", "Arial", "Sans-Serif";
+    font-family: "Raleway", "Arial", "Sans-Serif";
 }
 
 h3 {
-    font-family: "Eras ITC", "Arial", "Sans-Serif";
+    font-family: "Raleway", "Arial", "Sans-Serif";
 }
 
 h4 {
-    font-family: "Eras ITC", "Arial", "Sans-Serif";
+    font-family: "Raleway", "Arial", "Sans-Serif";
 }
 
 h5 {
-    font-family: "Eras ITC", "Arial", "Sans-Serif";
+    font-family: "Raleway", "Arial", "Sans-Serif";
 }
 
 h6 {
-    font-family: "Eras ITC", "Arial", "Sans-Serif";
+    font-family: "Raleway", "Arial", "Sans-Serif";
 }
 
 a{
-    font-family:"Eras ITC", "Arial", "Sans-Serif";
+    font-family:"Raleway", "Arial", "Sans-Serif";
 }
 
 .main-image {
     float: right;
     max-height: 70%;
     max-width: 70%;
-    margin: 20px 20px 20px 20px;
+    margin: 30px 30px 30px 30px;
 }
 
 .gallery-image {
-    max-height: 1200px;
+    max-height: 360px;
     max-width: 360px;
-    border: 10px solid black;
-    background: #C5CBE3;
+    border: 10px solid #223CCF;
     margin-bottom: 20px;
-    border-radius:30px;
-    overflow:hidden;
+    border-radius: 30px;
+    overflow: hidden;
 }
 
     .gallery-image > img {
     }
 
     .gallery-image:hover {
-        max-height: 1200px;
-        max-width: 360px;
-        background: #FFFFFF;
-        border-color: #2779BF;
+        border-color: #ED3D63;
         object-fit: contain;
         animation-name: gallery-image;
-        animation-duration: 0.3s;
+        animation-duration: 0.2s;
         animation-fill-mode: backwards;
     }
                
@@ -91,14 +87,15 @@ p {
     text-indent: 30px;
     font-size: 20px;
     border: transparent;
-    font-family: "Eras ITC", "Arial", "Sans-Serif";
+    font-family: "Raleway", "Arial", "Sans-Serif";
 }
 
 body {
     font-family: perpetua, sans-serif;
-    background-color: #FAFBA9;
+    background: url(website_BG_1.png);
     overflow: auto;
     min-height: 100%
+
 }
 
 .toc {
@@ -111,29 +108,30 @@ body {
     
 }
 
-.toc > ul > li > a{
-    display: block;
-    padding: 5px 5px 5px 5px;
-    background-color: #4056A1;
-    text-decoration: none;
-    color: #EFE2BA;
-    border-left: 5px #B59410;
-    border-right: 5px #B59410;
-}
-
-    .toc > ul {
-        list-style-type: none;
+    .toc > ul > li > a {
+        display: block;
+        padding: 5px 5px 5px 5px;
+        background-color: #223CCF;
+        text-decoration: none;
+        color: #FFFFFF;
+        border-left: 10px solid #161B7F;
+        border-right: 10px solid #0683D7;
+        border-bottom: 2px solid black;
     }
+
+.toc > ul {
+    list-style-type: none;
 }
 
-.toc > ul > li > a:hover {
-    padding: 5px 5px 5px 5px;
-    background-color: #2779BF;
-    color: #FFFFFF;
-    animation-name: example;
-    animation-duration: 0.5s;
-    animation-fill-mode: backwards;
-}
+    .toc > ul > li > a:hover {
+        background-color: #ED3D63;
+        color: #FFFFFF;
+        animation-name: example-2;
+        animation-duration: 0.2s;
+        animation-fill-mode: backwards;
+        border-left: 10px solid #0683D7;
+        border-right: 10px solid #161B7F;
+    }
 
 ul {
     
@@ -141,17 +139,21 @@ ul {
 }
 
 li{
-    font-family: "Eras ITC", "Arial", "sans-serif";
+    font-family: "Raleway", "Arial", "sans-serif";
 }
 
-.first-word{font-weight:bold;}
+.first-word{font-weight:bold;
+            color:#223CCF;
+}
 
 .form-body{}
 
 .image {
     float: right;
-    background-color: #C5CBE3;
-    border: 10px solid #D79922;
+    background-color: #223CCF;
+    border: 10px solid black;
+    border-radius:20px;
+    overflow:hidden;
     margin-right: 10px;
     max-height: 960px;
     max-width: 640px;
@@ -162,31 +164,56 @@ li{
 .gallery-text{float:left}
 
 .bubble-example-1 {
-    background: #C5CBE3;
-    border-radius: 30px;
+    background: #223CCF;
+    border-radius: 60px;
     font-weight:bold;
     padding: 20px 20px 20px 20px;
     max-width: 480px;
     max-height: 480px;
     border: 5px solid black;
     float:right;
+    margin-right: 40px;
     clear:both;
     margin-bottom: 20px;
 
     
 }
 
+
+    .bubble-example-1:hover {
+        animation-name: right-bubbles;
+        animation-duration: 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: backwards;
+        animation-timing-function: ease-out;
+        margin-right: 200px;
+        background-color: #ED3D63
+    }
+
+
 .bubble-example-2 {
-    background: #C5CBE3;
-    border-radius: 30px;
+    background: #223CCF;
+    border-radius: 60px;
     font-weight: bold;
     padding: 20px 20px 20px 20px;
     max-width: 480px;
-    max-height:auto;
+    max-height: fit-content;
     border: 5px solid black;
     float: left;
+    margin-left: 40px;
     clear: both;
     margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.bubble-example-2:hover {
+    animation-name: left-bubbles;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: backwards;
+    animation-timing-function: ease-out;
+    margin-left: 200px;
+    background-color: #ED3D63
 }
 
 .bubble-example-2 > ul > li{
@@ -198,7 +225,7 @@ li{
     padding: 0px 10px 0px 30px;
 }
 
-.email{background-color:#4056A1;
+.email{background-color:#223CCF;
         border:10px solid #D79922; 
         width:800px; 
         height:200px; 
@@ -210,7 +237,7 @@ li{
 
 .video {
     float: right;
-    background-color: #EFE2BA;
+    background-color: #223CCF;
     border: 10px solid #D79922;
     clear: right;
     object-fit: contain;
@@ -225,29 +252,31 @@ video {
 }
 
 ul.nav {
-    background-color: #4056A1;
+    background-color: #223CCF;
     text-align: center;
     list-style-type: none;
+    border-top: 10px solid #161B7F;
+    border-bottom: 10px solid #0683D7;
 }
 ul.nav > li {
   display: inline-block;
 }
-ul.nav > li:hover {
-    background-color: #2779BF;
-    color: #C5CBE3;
-    animation-name:example;
-    animation-duration: 0.5s;
-    animation-fill-mode: backwards;
-}
+    ul.nav > li:hover {
+        background-color: #ED3D63;
+        color: #223CCF;
+        animation-name: example;
+        animation-duration: 0.2s;
+        animation-fill-mode: backwards;
+    }
 ul.nav > li > a {
     display: block;
     padding: 20px 20px 20px 20px;
-  color: #EFE2BA;
+  color: #FFFFFF;
   text-decoration: none;
 }
 
     ul.nav > li > a :hover {
-        color: #C5CBE3;
+        color: #223CCF;
     }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
@@ -271,23 +300,68 @@ ul.nav > li > a {
 
 @keyframes example{
     from {
-        background-color: #4056A1;
+        background-color: #223CCF;
         
     }
     to {
-        background-color: #2779BF;
-        
+        background-color: #ED3D63;
+    }
+}
+
+@keyframes example-2 {
+    from {
+        background-color: #223CCF;
+        border-left: 10px solid #161B7F;
+        border-right: 10px solid #0683D7;
+    }
+
+    to {
+        background-color: #ED3D63;
+        border-left: 10px solid #0683D7;
+        border-right: 10px solid #161B7F;
     }
 }
 
 @keyframes gallery-image{
     from {
-        background: #C5CBE3;
-        border-color: #4056A1;
+        background: #223CCF;
+        border-color: #223CCF;
     }
     to {
-        background: #FFFFFF;
-        border-color: #2779BF;
+        background: #0A21C0;
+        border-color: #ED3D63;
     }
 }
+
+@keyframes right-bubbles {
+    0% {
+        background-color: #223CCF;
+        margin-right:40px;
+    }
+
+    100% {
+        background-color: #ED3D63;
+        margin-right: 200px;
+    }
+}
+
+@keyframes left-bubbles {
+    0% {
+        background-color: #223CCF;
+        margin-left: 40px;
+    }
+
+    100% {
+        background-color: #ED3D63;
+        margin-left: 200px;
+    }
+}
+
+.raleway-mysite {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
 
