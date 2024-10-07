@@ -3,40 +3,49 @@ h1{
     color:#223CCF;
     font-size:50px;
     text-align:left !important;
-    font-family:"Raleway","Arial","Sans-Serif";}
+    font-family:"Montserrat Alternates","Arial","Sans-Serif";
+    font-weight:900;
+}
 
 h2 {
     color: #233CCF;
     margin-left: 20px;
     font-size: 40px;
-    font-family: "Raleway", "Arial", "Sans-Serif";
+    font-family: "Montserrat Alternates", "Arial", "Sans-Serif";
 }
 
 h3 {
-    font-family: "Raleway", "Arial", "Sans-Serif";
+    font-family: "Montserrat Alternates", "Arial", "Sans-Serif";
 }
 
 h4 {
-    font-family: "Raleway", "Arial", "Sans-Serif";
+    font-family: "Montserrat Alternates", "Arial", "Sans-Serif";
 }
 
 h5 {
-    font-family: "Raleway", "Arial", "Sans-Serif";
+    font-family: "Montserrat Alternates", "Arial", "Sans-Serif";
 }
 
 h6 {
-    font-family: "Raleway", "Arial", "Sans-Serif";
+    font-family: "Montserrat Alternates", "Arial", "Sans-Serif";
 }
 
 a{
-    font-family:"Raleway", "Arial", "Sans-Serif";
+    font-family:"Montserrat Alternates", "Arial", "Sans-Serif";
 }
 
 .main-image {
     float: right;
-    max-height: 70%;
-    max-width: 70%;
+    max-height: 50%;
+    max-width: 50%;
     margin: 30px 30px 30px 30px;
+    animation-name:main-image;
+    animation-duration:2s;
+    animation-fill-mode:backwards;
+}
+
+.greeting {
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .gallery-image {
@@ -87,7 +96,8 @@ p {
     text-indent: 30px;
     font-size: 20px;
     border: transparent;
-    font-family: "Raleway", "Arial", "Sans-Serif";
+    font-family: "Montserrat Alternates", "Arial", "Sans-Serif";
+    font-weight:500;
 }
 
 body {
@@ -95,7 +105,6 @@ body {
     background: url(https://i.imgur.com/lNXkATJ.png);
     overflow: auto;
     min-height: 100%
-
 }
 
 .toc {
@@ -139,7 +148,7 @@ ul {
 }
 
 li{
-    font-family: "Raleway", "Arial", "sans-serif";
+    font-family: "Montserrat Alternates", "Arial", "sans-serif";
 }
 
 .first-word{font-weight:bold;
@@ -164,19 +173,17 @@ li{
 .gallery-text{float:left}
 
 .bubble-example-1 {
-    background: #223CCF;
+    background: #0683d7;
     border-radius: 60px;
-    font-weight:bold;
+    font-weight: bold;
     padding: 20px 20px 20px 20px;
     max-width: 480px;
     max-height: 480px;
     border: 5px solid black;
-    float:right;
+    float: right;
     margin-right: 40px;
-    clear:both;
+    clear: both;
     margin-bottom: 20px;
-
-    
 }
 
 
@@ -192,7 +199,7 @@ li{
 
 
 .bubble-example-2 {
-    background: #223CCF;
+    background: #0683d7;
     border-radius: 60px;
     font-weight: bold;
     padding: 20px 20px 20px 20px;
@@ -335,8 +342,8 @@ ul.nav > li > a {
 
 @keyframes right-bubbles {
     0% {
-        background-color: #223CCF;
-        margin-right:40px;
+        background-color: #0683d7;
+        margin-right: 40px;
     }
 
     100% {
@@ -347,7 +354,7 @@ ul.nav > li > a {
 
 @keyframes left-bubbles {
     0% {
-        background-color: #223CCF;
+        background-color: #0683d7;
         margin-left: 40px;
     }
 
@@ -357,11 +364,127 @@ ul.nav > li > a {
     }
 }
 
-.raleway-mysite {
-    font-family: "Raleway", sans-serif;
-    font-optical-sizing: auto;
+@keyframes main-image{
+    0%{
+        opacity: 0;
+        margin-top:600px;
+    }
+
+    100%{
+        opacity: 1;
+        margin-top:30px;
+    }
+}
+
+/*fonts*/
+
+.montserrat-alternates-thin {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.montserrat-alternates-extralight {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.montserrat-alternates-light {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.montserrat-alternates-regular {
+    font-family: "Montserrat Alternates", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+
+.montserrat-alternates-medium {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.montserrat-alternates-semibold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.montserrat-alternates-bold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat-alternates-extrabold {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.montserrat-alternates-black {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.montserrat-alternates-thin-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.montserrat-alternates-extralight-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.montserrat-alternates-light-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.montserrat-alternates-regular-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.montserrat-alternates-medium-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.montserrat-alternates-semibold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.montserrat-alternates-bold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.montserrat-alternates-extrabold-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.montserrat-alternates-black-italic {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
 
 
