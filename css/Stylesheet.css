@@ -57,6 +57,7 @@ a{
     margin-bottom: 20px;
     border-radius: 30px;
     overflow: hidden;
+    background: white;
 }
 
     .gallery-image > img {
@@ -69,6 +70,11 @@ a{
         animation-duration: 0.2s;
         animation-fill-mode: backwards;
     }
+
+.pixel-art
+{
+    image-rendering:pixelated;
+}
                
 .photo{float:right;
 max-height: 50%;
@@ -335,11 +341,9 @@ ul.nav > li > a {
 
 @keyframes gallery-image{
     from {
-        background: #223CCF;
         border-color: #223CCF;
     }
     to {
-        background: #0A21C0;
         border-color: #ED3D63;
     }
 }
