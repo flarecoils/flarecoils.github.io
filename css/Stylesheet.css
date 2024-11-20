@@ -195,7 +195,7 @@ li{
 }
 
 
-    .bubble-example-1:hover {
+/*.bubble-example-1:hover {
         animation-name: right-bubbles;
         animation-duration: 0.5s;
         animation-iteration-count: 1;
@@ -203,7 +203,7 @@ li{
         animation-timing-function: ease-out;
         margin-right: 200px;
         background-color: #ED3D63
-    }
+    }*/
 
 
 .bubble-example-2 {
@@ -221,7 +221,7 @@ li{
     overflow: hidden;
 }
 
-.bubble-example-2:hover {
+/*.bubble-example-2:hover {
     animation-name: left-bubbles;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
@@ -229,7 +229,7 @@ li{
     animation-timing-function: ease-out;
     margin-left: 200px;
     background-color: #ED3D63
-}
+}*/
 
 .bubble-example-2 > ul > li{
     padding:5px 5px 5px 5px;
